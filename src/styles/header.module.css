@@ -1,0 +1,42 @@
+.header{
+    width: 100vw;
+    display: flex;
+    height: 14vh;
+    background-color: var(--gray);
+}
+
+.logoarea{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.menu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu>ul>li{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu>ul>li>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

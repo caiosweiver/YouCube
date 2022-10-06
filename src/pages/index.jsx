@@ -1,5 +1,9 @@
+import _layout from "../components/_layout"
+
 export default function index(){
   return(
-    <h1>oi</h1>
+    <_layout>
+      
+    </_layout>
   )
 }
