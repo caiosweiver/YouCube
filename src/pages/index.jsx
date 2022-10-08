@@ -7,7 +7,7 @@ import Image from "next/image"
 export default function index(){
   return(
     <_layout>
-      <_selection img={natureza} alt="natureza">
+      <_selection img={natureza} alt="Natureza">
         <Link href='/'>
           <Image src={natureza} alt='natureza'></Image>
         </Link>

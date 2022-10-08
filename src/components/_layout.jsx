@@ -4,7 +4,10 @@ export default function _layout(props){
     return(
         <>
         <_header/>
-        {props.children}
+        <main>
+            {props.children}
+        </main>
+        
         </>
     )
 }
