@@ -11,6 +11,7 @@ body, #__next{
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {
@@ -22,6 +23,7 @@ a {
   box-sizing: border-box;
   margin: 0;
   border: 0;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
